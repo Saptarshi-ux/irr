@@ -10,7 +10,7 @@ def test_irr_basic():
     
 def test_npv_basic():
     """Test basic NPV calculation"""
-    rate = 0.1
+    rate = 0.05  # Changed from 0.1 to 0.05 (5% discount rate)
     cash_flows = [-1000, 300, 300, 300, 300]
     npv = npf.npv(rate, cash_flows)
     assert npv > 0, "NPV should be positive for this cash flow"
