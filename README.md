@@ -258,13 +258,13 @@ Required return = 25%
 IRR > Required Return
         |
         ↓
-    ACCEPT The Project
+    Project status -- → ACCEPT
 
 
 IRR < Required Return
         |
         ↓
-    REJECT The Project
+    Project status -- → REJECT
 ```
 
 ---
